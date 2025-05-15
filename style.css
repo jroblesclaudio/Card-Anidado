@@ -71,8 +71,8 @@ body{
             background-color: white;
             transition: all 0.3s ease;
             &:hover{
-                background-color: #333;
-                color: white;
+                background-color: #0D192B;
+                color: rgb(255, 255, 255);
             }
         }
         
