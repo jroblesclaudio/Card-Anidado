@@ -1,0 +1,84 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D192B;
+}
+
+.card{
+    width: 300px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(240, 227, 227);
+    box-shadow: 12px 12px 20px -1px rgba(0,0,0,0.73);
+
+    .card-image{
+        height: 192px;
+        width: 100%;
+        & img{
+            width: 100%;
+            border-radius: 20px 20px 0 0;
+        }
+    }
+
+    .card-avatar{
+        position: absolute;
+        width: 114px;
+        height: 114px;
+        border-radius: 50%;
+        overflow: hidden;
+        top: calc(50% - 57px);
+        & img{
+            width: 100%;
+        }   
+    }
+
+    .title{
+        margin-top: 60px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #333;
+    }
+
+    .subtitle{
+        font-weight: 700;
+        font-size: 14px;
+        color: #333;
+    }
+
+    .card-button{
+        .btn{
+            margin-top: 25px;
+            width: 76px;
+            height: 32px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            font-weight: 700;
+            color: black;
+            background-color: white;
+            transition: all 0.3s ease;
+            &:hover{
+                background-color: #333;
+                color: white;
+            }
+        }
+        
+        
+    }
+
+
+
+}
